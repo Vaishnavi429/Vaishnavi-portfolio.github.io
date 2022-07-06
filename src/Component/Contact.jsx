@@ -17,7 +17,7 @@ export default function Contact() {
                         <input type='text'
                             name='name'
                             placeholder='Enter your name'
-                            className='p-2 bg-transparent border-2 border-red-900 rounded-md text-blackS focus:outline-none' />
+                            className='p-2 bg-transparent border-2 border-red-900 rounded-md text-black focus:outline-none' />
                         <input type='text'
                             name='email'
                             placeholder='Enter your email'
