@@ -52,7 +52,7 @@ export default function SocialLink() {
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
         <ul>
           {sideLinks.map(({id,link,href,style,download})=>(
-            <li key={id} className={`flex justify-between items-center w-40 h-12 ml-[-100px] hover:ml-[-5px] hover:rounded-md duration-300 bg-gray-500 ${style}`}>
+            <li key={id} className={`flex justify-between items-center w-40 h-12 ml-[-100px] hover:ml-[-5px] hover:rounded-md duration-300 bg-red-900 ${style}`}>
               <a 
               href={href} className='flex justify-between items-center w-full text-white px-3 '
               download={download}

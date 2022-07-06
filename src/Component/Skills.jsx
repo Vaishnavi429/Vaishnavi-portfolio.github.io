@@ -57,8 +57,8 @@ export default function Skills() {
 
     ]
   return (
-    <div name='skills' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
-      <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
+    <div name='skills' className='bg-gradient-to-b from-green-200 to-green-700 w-full h-screen'>
+      <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-red-900'>
         <div>
             <p className='text-4xl font-bol  border-b-4 border-gray-500 p-2 inline'>Skills</p>
         </div>
@@ -67,7 +67,7 @@ export default function Skills() {
 
             {
                 skill.map(({id,src,title,style})=>(
-                    <div className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg  ${style}`} key={id} >
+                    <div className={`shadow-md hover:scale-105 duration-500 bg-gradient-to-b from-gray-300 to-gray-700 py-2 rounded-lg  ${style}`} key={id} >
                     <img src={src} alt="skills" className="w-20 mx-auto"/>
                     <p className='mt-3'>{title}</p>
                 </div>
